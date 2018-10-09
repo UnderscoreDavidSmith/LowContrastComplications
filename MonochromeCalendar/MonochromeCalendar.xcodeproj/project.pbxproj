@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7E868BF215EA279003D5234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E868BE215EA279003D5234 /* AppDelegate.swift */; };
+		F7E868C1215EA279003D5234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E868C0215EA279003D5234 /* ViewController.swift */; };
+		F7E868C4215EA279003D5234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E868C2215EA279003D5234 /* Main.storyboard */; };
+		F7E868C6215EA279003D5234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E868C5215EA279003D5234 /* Assets.xcassets */; };
+		F7E868C9215EA279003D5234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E868C7215EA279003D5234 /* LaunchScreen.storyboard */; };
+		F7E868CE215EA279003D5234 /* MonochromeCalendar WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F7E868CD215EA279003D5234 /* MonochromeCalendar WatchKit App.app */; };
+		F7E868D4215EA279003D5234 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E868D2215EA279003D5234 /* Interface.storyboard */; };
+		F7E868D6215EA27A003D5234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E868D5215EA27A003D5234 /* Assets.xcassets */; };
+		F7E868DD215EA27A003D5234 /* MonochromeCalendar WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F7E868DC215EA27A003D5234 /* MonochromeCalendar WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7E868E2215EA27A003D5234 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E868E1215EA27A003D5234 /* InterfaceController.swift */; };
+		F7E868E4215EA27A003D5234 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E868E3215EA27A003D5234 /* ExtensionDelegate.swift */; };
+		F7E868E6215EA27A003D5234 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E868E5215EA27A003D5234 /* ComplicationController.swift */; };
+		F7E868E8215EA27A003D5234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E868E7215EA27A003D5234 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7E868CF215EA279003D5234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E868B3215EA279003D5234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E868CC215EA279003D5234;
+			remoteInfo = "MonochromeCalendar WatchKit App";
+		};
+		F7E868DE215EA27A003D5234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E868B3215EA279003D5234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E868DB215EA27A003D5234;
+			remoteInfo = "MonochromeCalendar WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7E868EF215EA27A003D5234 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7E868DD215EA27A003D5234 /* MonochromeCalendar WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E868F3215EA27A003D5234 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F7E868CE215EA279003D5234 /* MonochromeCalendar WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7E868BB215EA279003D5234 /* MonochromeCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonochromeCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E868BE215EA279003D5234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7E868C0215EA279003D5234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7E868C3215EA279003D5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7E868C5215EA279003D5234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E868C8215EA279003D5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7E868CA215EA279003D5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E868CD215EA279003D5234 /* MonochromeCalendar WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MonochromeCalendar WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E868D3215EA279003D5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F7E868D5215EA27A003D5234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E868D7215EA27A003D5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E868DC215EA27A003D5234 /* MonochromeCalendar WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MonochromeCalendar WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E868E1215EA27A003D5234 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F7E868E3215EA27A003D5234 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F7E868E5215EA27A003D5234 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F7E868E7215EA27A003D5234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E868E9215EA27A003D5234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E868B8215EA279003D5234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E868D9215EA27A003D5234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E868B2215EA279003D5234 = {
+			isa = PBXGroup;
+			children = (
+				F7E868BD215EA279003D5234 /* MonochromeCalendar */,
+				F7E868D1215EA279003D5234 /* MonochromeCalendar WatchKit App */,
+				F7E868E0215EA27A003D5234 /* MonochromeCalendar WatchKit Extension */,
+				F7E868BC215EA279003D5234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E868BC215EA279003D5234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E868BB215EA279003D5234 /* MonochromeCalendar.app */,
+				F7E868CD215EA279003D5234 /* MonochromeCalendar WatchKit App.app */,
+				F7E868DC215EA27A003D5234 /* MonochromeCalendar WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E868BD215EA279003D5234 /* MonochromeCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F7E868BE215EA279003D5234 /* AppDelegate.swift */,
+				F7E868C0215EA279003D5234 /* ViewController.swift */,
+				F7E868C2215EA279003D5234 /* Main.storyboard */,
+				F7E868C5215EA279003D5234 /* Assets.xcassets */,
+				F7E868C7215EA279003D5234 /* LaunchScreen.storyboard */,
+				F7E868CA215EA279003D5234 /* Info.plist */,
+			);
+			path = MonochromeCalendar;
+			sourceTree = "<group>";
+		};
+		F7E868D1215EA279003D5234 /* MonochromeCalendar WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F7E868D2215EA279003D5234 /* Interface.storyboard */,
+				F7E868D5215EA27A003D5234 /* Assets.xcassets */,
+				F7E868D7215EA27A003D5234 /* Info.plist */,
+			);
+			path = "MonochromeCalendar WatchKit App";
+			sourceTree = "<group>";
+		};
+		F7E868E0215EA27A003D5234 /* MonochromeCalendar WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F7E868E1215EA27A003D5234 /* InterfaceController.swift */,
+				F7E868E3215EA27A003D5234 /* ExtensionDelegate.swift */,
+				F7E868E5215EA27A003D5234 /* ComplicationController.swift */,
+				F7E868E7215EA27A003D5234 /* Assets.xcassets */,
+				F7E868E9215EA27A003D5234 /* Info.plist */,
+			);
+			path = "MonochromeCalendar WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E868BA215EA279003D5234 /* MonochromeCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E868F4215EA27A003D5234 /* Build configuration list for PBXNativeTarget "MonochromeCalendar" */;
+			buildPhases = (
+				F7E868B7215EA279003D5234 /* Sources */,
+				F7E868B8215EA279003D5234 /* Frameworks */,
+				F7E868B9215EA279003D5234 /* Resources */,
+				F7E868F3215EA27A003D5234 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E868D0215EA279003D5234 /* PBXTargetDependency */,
+			);
+			name = MonochromeCalendar;
+			productName = MonochromeCalendar;
+			productReference = F7E868BB215EA279003D5234 /* MonochromeCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E868CC215EA279003D5234 /* MonochromeCalendar WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E868F0215EA27A003D5234 /* Build configuration list for PBXNativeTarget "MonochromeCalendar WatchKit App" */;
+			buildPhases = (
+				F7E868CB215EA279003D5234 /* Resources */,
+				F7E868EF215EA27A003D5234 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E868DF215EA27A003D5234 /* PBXTargetDependency */,
+			);
+			name = "MonochromeCalendar WatchKit App";
+			productName = "MonochromeCalendar WatchKit App";
+			productReference = F7E868CD215EA279003D5234 /* MonochromeCalendar WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F7E868DB215EA27A003D5234 /* MonochromeCalendar WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E868EC215EA27A003D5234 /* Build configuration list for PBXNativeTarget "MonochromeCalendar WatchKit Extension" */;
+			buildPhases = (
+				F7E868D8215EA27A003D5234 /* Sources */,
+				F7E868D9215EA27A003D5234 /* Frameworks */,
+				F7E868DA215EA27A003D5234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MonochromeCalendar WatchKit Extension";
+			productName = "MonochromeCalendar WatchKit Extension";
+			productReference = F7E868DC215EA27A003D5234 /* MonochromeCalendar WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E868B3215EA279003D5234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Cross Forward Consulting, LLC";
+				TargetAttributes = {
+					F7E868BA215EA279003D5234 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F7E868CC215EA279003D5234 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F7E868DB215EA27A003D5234 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = F7E868B6215EA279003D5234 /* Build configuration list for PBXProject "MonochromeCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E868B2215EA279003D5234;
+			productRefGroup = F7E868BC215EA279003D5234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E868BA215EA279003D5234 /* MonochromeCalendar */,
+				F7E868CC215EA279003D5234 /* MonochromeCalendar WatchKit App */,
+				F7E868DB215EA27A003D5234 /* MonochromeCalendar WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E868B9215EA279003D5234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E868C9215EA279003D5234 /* LaunchScreen.storyboard in Resources */,
+				F7E868C6215EA279003D5234 /* Assets.xcassets in Resources */,
+				F7E868C4215EA279003D5234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E868CB215EA279003D5234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E868D6215EA27A003D5234 /* Assets.xcassets in Resources */,
+				F7E868D4215EA279003D5234 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E868DA215EA27A003D5234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E868E8215EA27A003D5234 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E868B7215EA279003D5234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E868C1215EA279003D5234 /* ViewController.swift in Sources */,
+				F7E868BF215EA279003D5234 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E868D8215EA27A003D5234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E868E4215EA27A003D5234 /* ExtensionDelegate.swift in Sources */,
+				F7E868E2215EA27A003D5234 /* InterfaceController.swift in Sources */,
+				F7E868E6215EA27A003D5234 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7E868D0215EA279003D5234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E868CC215EA279003D5234 /* MonochromeCalendar WatchKit App */;
+			targetProxy = F7E868CF215EA279003D5234 /* PBXContainerItemProxy */;
+		};
+		F7E868DF215EA27A003D5234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E868DB215EA27A003D5234 /* MonochromeCalendar WatchKit Extension */;
+			targetProxy = F7E868DE215EA27A003D5234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7E868C2215EA279003D5234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E868C3215EA279003D5234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7E868C7215EA279003D5234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E868C8215EA279003D5234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F7E868D2215EA279003D5234 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E868D3215EA279003D5234 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E868EA215EA27A003D5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7E868EB215EA27A003D5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E868ED215EA27A003D5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = "MonochromeCalendar WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		F7E868EE215EA27A003D5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = "MonochromeCalendar WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		F7E868F1215EA27A003D5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				IBSC_MODULE = MonochromeCalendar_WatchKit_Extension;
+				INFOPLIST_FILE = "MonochromeCalendar WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		F7E868F2215EA27A003D5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				IBSC_MODULE = MonochromeCalendar_WatchKit_Extension;
+				INFOPLIST_FILE = "MonochromeCalendar WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		F7E868F5215EA27A003D5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = MonochromeCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7E868F6215EA27A003D5234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = MonochromeCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E868B6215EA279003D5234 /* Build configuration list for PBXProject "MonochromeCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E868EA215EA27A003D5234 /* Debug */,
+				F7E868EB215EA27A003D5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E868EC215EA27A003D5234 /* Build configuration list for PBXNativeTarget "MonochromeCalendar WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E868ED215EA27A003D5234 /* Debug */,
+				F7E868EE215EA27A003D5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E868F0215EA27A003D5234 /* Build configuration list for PBXNativeTarget "MonochromeCalendar WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E868F1215EA27A003D5234 /* Debug */,
+				F7E868F2215EA27A003D5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E868F4215EA27A003D5234 /* Build configuration list for PBXNativeTarget "MonochromeCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E868F5215EA27A003D5234 /* Debug */,
+				F7E868F6215EA27A003D5234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E868B3215EA279003D5234 /* Project object */;
+}
