@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7506D7B215E6E4D0038837C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7506D7A215E6E4D0038837C /* AppDelegate.swift */; };
+		F7506D7D215E6E4D0038837C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7506D7C215E6E4D0038837C /* ViewController.swift */; };
+		F7506D80215E6E4D0038837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7506D7E215E6E4D0038837C /* Main.storyboard */; };
+		F7506D82215E6E4E0038837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7506D81215E6E4E0038837C /* Assets.xcassets */; };
+		F7506D85215E6E4E0038837C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7506D83215E6E4E0038837C /* LaunchScreen.storyboard */; };
+		F7506D8A215E6E4E0038837C /* MonochromeBattery WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F7506D89215E6E4E0038837C /* MonochromeBattery WatchKit App.app */; };
+		F7506D90215E6E4E0038837C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7506D8E215E6E4E0038837C /* Interface.storyboard */; };
+		F7506D92215E6E4E0038837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7506D91215E6E4E0038837C /* Assets.xcassets */; };
+		F7506D99215E6E4E0038837C /* MonochromeBattery WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F7506D98215E6E4E0038837C /* MonochromeBattery WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7506D9E215E6E4E0038837C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7506D9D215E6E4E0038837C /* InterfaceController.swift */; };
+		F7506DA0215E6E4E0038837C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7506D9F215E6E4E0038837C /* ExtensionDelegate.swift */; };
+		F7506DA2215E6E4E0038837C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7506DA1215E6E4E0038837C /* ComplicationController.swift */; };
+		F7506DA4215E6E4F0038837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7506DA3215E6E4F0038837C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7506D8B215E6E4E0038837C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7506D6F215E6E4D0038837C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7506D88215E6E4E0038837C;
+			remoteInfo = "MonochromeBattery WatchKit App";
+		};
+		F7506D9A215E6E4E0038837C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7506D6F215E6E4D0038837C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7506D97215E6E4E0038837C;
+			remoteInfo = "MonochromeBattery WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7506DAB215E6E4F0038837C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7506D99215E6E4E0038837C /* MonochromeBattery WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7506DAF215E6E4F0038837C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F7506D8A215E6E4E0038837C /* MonochromeBattery WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7506D77215E6E4D0038837C /* MonochromeBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonochromeBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7506D7A215E6E4D0038837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7506D7C215E6E4D0038837C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7506D7F215E6E4D0038837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7506D81215E6E4E0038837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7506D84215E6E4E0038837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7506D86215E6E4E0038837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7506D89215E6E4E0038837C /* MonochromeBattery WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MonochromeBattery WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7506D8F215E6E4E0038837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F7506D91215E6E4E0038837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7506D93215E6E4E0038837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7506D98215E6E4E0038837C /* MonochromeBattery WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MonochromeBattery WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7506D9D215E6E4E0038837C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F7506D9F215E6E4E0038837C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F7506DA1215E6E4E0038837C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F7506DA3215E6E4F0038837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7506DA5215E6E4F0038837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7506D74215E6E4D0038837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7506D95215E6E4E0038837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7506D6E215E6E4D0038837C = {
+			isa = PBXGroup;
+			children = (
+				F7506D79215E6E4D0038837C /* MonochromeBattery */,
+				F7506D8D215E6E4E0038837C /* MonochromeBattery WatchKit App */,
+				F7506D9C215E6E4E0038837C /* MonochromeBattery WatchKit Extension */,
+				F7506D78215E6E4D0038837C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7506D78215E6E4D0038837C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7506D77215E6E4D0038837C /* MonochromeBattery.app */,
+				F7506D89215E6E4E0038837C /* MonochromeBattery WatchKit App.app */,
+				F7506D98215E6E4E0038837C /* MonochromeBattery WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7506D79215E6E4D0038837C /* MonochromeBattery */ = {
+			isa = PBXGroup;
+			children = (
+				F7506D7A215E6E4D0038837C /* AppDelegate.swift */,
+				F7506D7C215E6E4D0038837C /* ViewController.swift */,
+				F7506D7E215E6E4D0038837C /* Main.storyboard */,
+				F7506D81215E6E4E0038837C /* Assets.xcassets */,
+				F7506D83215E6E4E0038837C /* LaunchScreen.storyboard */,
+				F7506D86215E6E4E0038837C /* Info.plist */,
+			);
+			path = MonochromeBattery;
+			sourceTree = "<group>";
+		};
+		F7506D8D215E6E4E0038837C /* MonochromeBattery WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F7506D8E215E6E4E0038837C /* Interface.storyboard */,
+				F7506D91215E6E4E0038837C /* Assets.xcassets */,
+				F7506D93215E6E4E0038837C /* Info.plist */,
+			);
+			path = "MonochromeBattery WatchKit App";
+			sourceTree = "<group>";
+		};
+		F7506D9C215E6E4E0038837C /* MonochromeBattery WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F7506D9D215E6E4E0038837C /* InterfaceController.swift */,
+				F7506D9F215E6E4E0038837C /* ExtensionDelegate.swift */,
+				F7506DA1215E6E4E0038837C /* ComplicationController.swift */,
+				F7506DA3215E6E4F0038837C /* Assets.xcassets */,
+				F7506DA5215E6E4F0038837C /* Info.plist */,
+			);
+			path = "MonochromeBattery WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7506D76215E6E4D0038837C /* MonochromeBattery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7506DB0215E6E4F0038837C /* Build configuration list for PBXNativeTarget "MonochromeBattery" */;
+			buildPhases = (
+				F7506D73215E6E4D0038837C /* Sources */,
+				F7506D74215E6E4D0038837C /* Frameworks */,
+				F7506D75215E6E4D0038837C /* Resources */,
+				F7506DAF215E6E4F0038837C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7506D8C215E6E4E0038837C /* PBXTargetDependency */,
+			);
+			name = MonochromeBattery;
+			productName = MonochromeBattery;
+			productReference = F7506D77215E6E4D0038837C /* MonochromeBattery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7506D88215E6E4E0038837C /* MonochromeBattery WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7506DAC215E6E4F0038837C /* Build configuration list for PBXNativeTarget "MonochromeBattery WatchKit App" */;
+			buildPhases = (
+				F7506D87215E6E4E0038837C /* Resources */,
+				F7506DAB215E6E4F0038837C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7506D9B215E6E4E0038837C /* PBXTargetDependency */,
+			);
+			name = "MonochromeBattery WatchKit App";
+			productName = "MonochromeBattery WatchKit App";
+			productReference = F7506D89215E6E4E0038837C /* MonochromeBattery WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F7506D97215E6E4E0038837C /* MonochromeBattery WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7506DA8215E6E4F0038837C /* Build configuration list for PBXNativeTarget "MonochromeBattery WatchKit Extension" */;
+			buildPhases = (
+				F7506D94215E6E4E0038837C /* Sources */,
+				F7506D95215E6E4E0038837C /* Frameworks */,
+				F7506D96215E6E4E0038837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MonochromeBattery WatchKit Extension";
+			productName = "MonochromeBattery WatchKit Extension";
+			productReference = F7506D98215E6E4E0038837C /* MonochromeBattery WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7506D6F215E6E4D0038837C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Cross Forward Consulting, LLC";
+				TargetAttributes = {
+					F7506D76215E6E4D0038837C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F7506D88215E6E4E0038837C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F7506D97215E6E4E0038837C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = F7506D72215E6E4D0038837C /* Build configuration list for PBXProject "MonochromeBattery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7506D6E215E6E4D0038837C;
+			productRefGroup = F7506D78215E6E4D0038837C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7506D76215E6E4D0038837C /* MonochromeBattery */,
+				F7506D88215E6E4E0038837C /* MonochromeBattery WatchKit App */,
+				F7506D97215E6E4E0038837C /* MonochromeBattery WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7506D75215E6E4D0038837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7506D85215E6E4E0038837C /* LaunchScreen.storyboard in Resources */,
+				F7506D82215E6E4E0038837C /* Assets.xcassets in Resources */,
+				F7506D80215E6E4D0038837C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7506D87215E6E4E0038837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7506D92215E6E4E0038837C /* Assets.xcassets in Resources */,
+				F7506D90215E6E4E0038837C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7506D96215E6E4E0038837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7506DA4215E6E4F0038837C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7506D73215E6E4D0038837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7506D7D215E6E4D0038837C /* ViewController.swift in Sources */,
+				F7506D7B215E6E4D0038837C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7506D94215E6E4E0038837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7506DA0215E6E4E0038837C /* ExtensionDelegate.swift in Sources */,
+				F7506D9E215E6E4E0038837C /* InterfaceController.swift in Sources */,
+				F7506DA2215E6E4E0038837C /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7506D8C215E6E4E0038837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7506D88215E6E4E0038837C /* MonochromeBattery WatchKit App */;
+			targetProxy = F7506D8B215E6E4E0038837C /* PBXContainerItemProxy */;
+		};
+		F7506D9B215E6E4E0038837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7506D97215E6E4E0038837C /* MonochromeBattery WatchKit Extension */;
+			targetProxy = F7506D9A215E6E4E0038837C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7506D7E215E6E4D0038837C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7506D7F215E6E4D0038837C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7506D83215E6E4E0038837C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7506D84215E6E4E0038837C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F7506D8E215E6E4E0038837C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7506D8F215E6E4E0038837C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7506DA6215E6E4F0038837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7506DA7215E6E4F0038837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7506DA9215E6E4F0038837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = "MonochromeBattery WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeBattery.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		F7506DAA215E6E4F0038837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = "MonochromeBattery WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeBattery.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		F7506DAD215E6E4F0038837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				IBSC_MODULE = MonochromeBattery_WatchKit_Extension;
+				INFOPLIST_FILE = "MonochromeBattery WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeBattery.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		F7506DAE215E6E4F0038837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				IBSC_MODULE = MonochromeBattery_WatchKit_Extension;
+				INFOPLIST_FILE = "MonochromeBattery WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeBattery.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		F7506DB1215E6E4F0038837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = MonochromeBattery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeBattery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7506DB2215E6E4F0038837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26NR694A3R;
+				INFOPLIST_FILE = MonochromeBattery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeBattery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7506D72215E6E4D0038837C /* Build configuration list for PBXProject "MonochromeBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7506DA6215E6E4F0038837C /* Debug */,
+				F7506DA7215E6E4F0038837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7506DA8215E6E4F0038837C /* Build configuration list for PBXNativeTarget "MonochromeBattery WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7506DA9215E6E4F0038837C /* Debug */,
+				F7506DAA215E6E4F0038837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7506DAC215E6E4F0038837C /* Build configuration list for PBXNativeTarget "MonochromeBattery WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7506DAD215E6E4F0038837C /* Debug */,
+				F7506DAE215E6E4F0038837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7506DB0215E6E4F0038837C /* Build configuration list for PBXNativeTarget "MonochromeBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7506DB1215E6E4F0038837C /* Debug */,
+				F7506DB2215E6E4F0038837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7506D6F215E6E4D0038837C /* Project object */;
+}
