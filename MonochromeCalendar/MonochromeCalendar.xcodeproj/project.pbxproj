@@ -468,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26NR694A3R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MonochromeCalendar WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26NR694A3R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MonochromeCalendar WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,7 +513,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26NR694A3R;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = MonochromeCalendar_WatchKit_Extension;
 				INFOPLIST_FILE = "MonochromeCalendar WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar.watchkitapp;
@@ -532,7 +532,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26NR694A3R;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = MonochromeCalendar_WatchKit_Extension;
 				INFOPLIST_FILE = "MonochromeCalendar WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crossforward.MonochromeCalendar.watchkitapp;
@@ -550,7 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26NR694A3R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonochromeCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -568,7 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26NR694A3R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonochromeCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
