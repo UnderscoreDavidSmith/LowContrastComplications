@@ -8,3 +8,4 @@ This project includes the two of these that are easiest to share since they do n
 
 I'm sharing these so that if anyone else is interested in trying this setup out they can.  The code is kinda horrible and no where near what a 'finalized' version would look like but they mostly work.  Because of limitations with how complications can update, the battery complication only updates every 15 minutes or so.  
 
+I'm not expecting to update, support or manage these examples going forward, but am instead just providing them in case they are interesting from someone else to try out.  
